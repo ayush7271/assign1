@@ -1,5 +1,11 @@
 .App {
-  /* text-align: center; */
+  width:400px;
+  height:400px;
+ display: grid;
+ grid-template-columns: auto auto;
+
+ /* background-color: black;   */
+ 
 }
 
 .App-logo {
@@ -13,16 +19,7 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  /* flex-direction: column;
-  /* align-items: center; */
-  /* justify-content: center; */ 
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 
 .App-link {
   color: #61dafb;
@@ -40,4 +37,111 @@ p{
   font-weight: bold;
   font-family: Times;
   font-size: 25px;
+}
+.joinus{
+  height: 30px;
+  width: 150px;
+  background-color: rgb(144, 191, 252);
+  border-radius:50px;
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  color:#fff;
+  margin-bottom: 15px;
+  border:none;
+  margin-right: 15px;
+  
+}
+.login{
+  height: 30px;
+  width: 150px;
+  background-color: rgb(224, 153, 45);
+  border-radius:50px;
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  color:#fff;
+  margin-bottom: 15px;
+  border:none;
+  margin-right: 15px;
+}
+.search{
+  height: 30px;
+  width: 150px;
+  background-color: rgb(128, 221, 116);
+  border-radius:50px;
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  color:#fff;
+  margin-bottom: 15px;
+  border:none;
+  margin-right: 15px;
+}
+.home{
+  height: 30px;
+  width: 150px;
+  background-color: rgb(241, 78, 168);
+  border-radius:50px;
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  color:#fff;
+  margin-bottom: 15px;
+  border:none;
+  margin-right: 15px;
+}
+.setting{
+  height: 30px;
+  width: 150px;
+  background-color: rgb(162, 228, 135);
+  border-radius:50px;
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  color:#fff;
+  margin-bottom: 15px;
+  border:none;
+  margin-right: 15px;
+}
+.contact{
+  height: 30px;
+  width: 150px;
+  background-color: rgb(218, 85, 45);
+  border-radius:50px;
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  color:#fff;
+  margin-bottom: 15px;
+  border:none;
+  margin-right: 15px;
+
+}
+.help{
+  height: 30px;
+  width: 150px;
+  background-color: rgb(68, 53, 85);
+  border-radius:50px;
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  color:#fff;
+  margin-bottom: 15px;
+  border:none;
+  margin-right: 15px;
+}
+.download{
+  height: 30px;
+  width: 150px;
+  background-color: rgb(240, 219, 104);
+  border-radius:50px;
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  color:#fff;
+  margin-bottom: 15px;
+   border:none;
+   margin-right: 15px;
+  
 }
